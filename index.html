@@ -1,34 +1,28 @@
 <body>
 <head>
 <title>Рассчётная программа</title>
+<link rel="stylesheet" type="text/css" href="style.css">
 <meta charset="utf-8">
+<script src="scriptMain.js"></script>
 </head>
 <body>
-<div class="countSmax">
-<script type="text/javascript" language="JavaScript">
-function countS() {
-var K, S
-with(document.inputData) {
-if (!Q1[1].checked) {
-K=3;
-S=0,0049; } else {
-K=30;
-S=0,0049; }
-if (volume=null || volume=undefined || (!Q1[1].checked && !Q1[2].checked && !Q1[3].checked)) {
-result.value = "Недостаточно данных";
-}
-</script>
+<div class="inputData">
+
+
 <H1><b>Рассчётная программа</b></H1>
 <form name="inputData">
 <b>Объём помещения:</b><br/><input type="text" size="1" value="" name="volume"/> m3
 <p><b>Тип мха:</b>
-<p><input type="radio" value="1" name="Q1"/> Сфагнум<br/>
-<input type="radio" value="2" name="Q1"/> Бреевые мхи<br/>
-<input type="radio" value="3" name="Q1"/> Андреевые мхи<br/> 
+<p>
+<input type="radio" value="0" name="Q1"/> Сфагнум<br/>
+<input type="radio" value="1" name="Q1"/> Бриеевые мхи<br/>
+<input type="radio" value="2" name="Q1"/> Андреевые мхи<br/> 
+<p>
 <input onclick="countS()" type="button" value="Рассчитать"/>
 <input onclick="resetS()" type="button" value="Сброс"/>
 <hr>
 <P><TEXTAREA name="result" rows="4" cols="70" readonly> </TEXTAREA> </P>
 </form>
+</div>
 
 </body>

@@ -1,0 +1,63 @@
+body {
+	background-image: url(images/fon.jpg);
+	margin: 0px;
+}
+
+
+h1 {
+font: 36pt tahoma, sans-serif;
+color: white;
+weight: bold;
+text-shadow: 1px 0 1px #000, 
+	0 1px 1px #000, 
+	-1px 0 1px #000, 
+	0 -1px 1px #000;
+margin: 20px;
+} 
+p { 
+font: 14pt tahoma, sans-serif;
+color:white;
+}
+
+.album img {
+width: 356px;
+height: 220px;
+position: relative;
+margin: 10px;
+border-radius: 25px;
+border: solid black 2px;
+cursor: zoom-in;
+margin: 50px 70px 20px 20px;
+}
+.inputData {
+	font: 14pt tahoma, sans-serif;
+color:white;
+margin: 30px;
+text-shadow: 1px 0 1px #000, 
+	0 1px 1px #000, 
+	-1px 0 1px #000, 
+	0 -1px 1px #000;
+}
+
+input.radio {
+	color: white;
+}
+
+}
+
+input.button {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
