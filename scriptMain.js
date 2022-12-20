@@ -18,7 +18,7 @@ function countS() {
 	let mReqWater = 0.1*0.023*volume.value;
 	let mDry = mReqWater/K;
 	let SReq = S*(mDry/10);
-	result.value = (`Для мха вида ${mokhClass} и комнаты площадью ${volume.value} м³ необходимая площадь размещаемого мха равна ${SReq} м³, закупить необходимо ${mDry} грамм мха.`);
+	result.value = (`Для мха вида ${mokhClass} и комнаты объёмом ${volume.value} м³ необходимая площадь размещаемого мха равна ${SReq} м³, закупить необходимо ${mDry} грамм мха.`);
 	}}};
 	
 function resetS() {
